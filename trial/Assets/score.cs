@@ -21,7 +21,7 @@ public class score : MonoBehaviour
         {
             ts = Mathf.RoundToInt(ts);
             if(ts!=0)
-                scoress += ts.ToString() + "\n";
+                scoress += "\n" + ts.ToString();
             prevScores.text = scoress;
             ts = 0;
         }
